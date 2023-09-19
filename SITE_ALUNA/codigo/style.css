@@ -1,0 +1,317 @@
+/* Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+nav ul li:first-child a {
+    font-weight: normal; 
+    font-size: 20px; 
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    width: 100vw;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+li {
+    margin: 0 15px;
+}
+
+nav {
+    background: rgb(4, 1, 132);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+nav p {
+    font-weight: bold;
+}
+
+header {
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url('montanhas\ .jpg');
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 330px auto;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/* Imagem Redonda */
+#img_redonda{
+    border-radius: 50%;
+    text-underline-position: auto;
+    position: absolute;
+    transform: translate(-50%, -90%);
+    top: auto;
+    height: calc(50vh - 75px);
+}
+
+
+/*Segunda Página*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+}
+
+.image,
+.text {
+    height: 100vh; 
+    width: 40%; 
+    margin: 0; 
+    overflow: hidden; 
+}
+
+.image {
+    float: left;
+    object-fit: cover; 
+}
+
+.text {
+    background-color: rgb(4, 1, 132); 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%; 
+}
+
+.title {
+    font-size: 36px; 
+    font-family: "Arial Black", sans-serif; 
+    margin-bottom: 20px; 
+}
+
+.text p {
+    font-size: 18px; 
+    line-height: 1.5; 
+}
+
+
+
+/*Terceira pagina*/
+
+.page.interests {
+    background-color: #ccc; 
+    padding: 20px;
+}
+
+.page.interests h2.title {
+    text-align: left; 
+    margin-left: 20px; 
+    font-size: 24px; 
+    color: white; 
+}
+
+.page.interests .interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.page.interests .interest-box {
+    width: calc(33.33% - 20px); 
+    height: 250px; 
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px; 
+}
+
+
+
+/* Página de Disciplinas */
+
+.page.disciplines {
+    background-color: rgb(4, 1, 132); 
+    color: white; 
+    padding: 20px;
+    height: 100vh; 
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.page.disciplines h2.title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#disp table {
+    width: 90%; 
+    border-collapse: collapse;
+    margin-top: 30px; 
+}
+
+#disp th, #disp td {
+    border: 1px solid #ddd;
+    padding: 20px; 
+    text-align: left;
+}
+
+#disp th:first-child, #disp td:first-child {
+    width: 20%; 
+}
+
+#disp th:nth-child(2), #disp td:nth-child(2),
+#disp th:nth-child(3), #disp td:nth-child(3) {
+    width: 40%; 
+}
+
+
+
+
+/* Página de Educação */
+
+.page.education {
+    background-color: rgb(4, 1, 132);
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page.education h2.title {
+    margin-bottom: 20px;
+}
+
+#education-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#education-content .text {
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: gray; 
+}
+
+#education-content img {
+    width: 50%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+#education-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#education-content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#education-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#education-content ul li {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* Página de Contato */
+
+.page.contact {
+    background-color: rgb(4, 1, 132); 
+    color: white; 
+    padding: 20px;
+    height: 100vh; 
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.page.contact h2.title {
+    margin-bottom: 20px;
+}
+
+#contact-content {
+    width: 90%; 
+    margin-top: 30px; 
+}
+
+#contact-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0; 
+}
+
+#ctt p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 5px 0; 
+}
+
+#ctt a {
+    color: white; 
+    text-decoration: none; 
+}
